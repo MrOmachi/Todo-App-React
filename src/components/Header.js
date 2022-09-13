@@ -7,16 +7,15 @@ const Header = () => {
     <header style={headerStyle}>
       <h1
         style={{
-          fontSize: '6rem',
+          fontSize: '3rem',
           fontWeight: '600',
           marginBottom: '2rem',
           lineHeight: '1em',
           color: '#ececec',
-          textTransform: 'lowercase',
           textAlign: 'center',
         }}
       >
-        todos
+        Todays todo list
       </h1>
     </header>
   );
