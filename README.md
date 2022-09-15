@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Coming soon](https://livedemo.com)
+[Coming soon](https://mromachi.github.io/Todo-App-React/)
 
 ## Getting Started
 
