@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import styles from "./TodoItem.module.css";
+import React, { useState, useEffect } from 'react';
+import styles from './TodoItem.module.css';
 
 const TodoItem = (props) => {
   const [editing, setEditing] = useState(false);
@@ -11,15 +11,15 @@ const TodoItem = (props) => {
   useEffect(() => () => {}, []);
 
   const handleUpdatedDone = (event) => {
-    if (event.key === "Enter") {
+    if (event.key === 'Enter') {
       setEditing(false);
     }
   };
 
   const completedStyle = {
-    fontStyle: "italic",
+    fontStyle: 'italic',
     opacity: 0.4,
-    textDecoration: "line-through",
+    textDecoration: 'line-through',
   };
 
   const { completed, id, title } = props.todo;
@@ -28,9 +28,9 @@ const TodoItem = (props) => {
   const editMode = {};
 
   if (editing) {
-    viewMode.display = "none";
+    viewMode.display = 'none';
   } else {
-    editMode.display = "none";
+    editMode.display = 'none';
   }
 
   return (
